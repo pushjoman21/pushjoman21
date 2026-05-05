@@ -78,7 +78,7 @@ developer = {
 
 #### 🔓 Public
 
-[![Hcaptcha-MotionData-VM](https://github-readme-stats.vercel.app/api/pin/?username=pushjoman21&repo=Hcaptcha-MotionData-VM&theme=github_dark&border_color=00FF88&title_color=00FF88)](https://github.com/pushjoman21/Hcaptcha-MotionData-VM)
+Check my repositories!
 
 #### 🔒 Private / In Development
 
