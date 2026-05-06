@@ -98,15 +98,6 @@ Check my repositories!
 
 ---
 
-### 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=pushjoman21&show_icons=true&theme=github_dark&border_color=00FF88&icon_color=00FF88&title_color=00FF88" height="160" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pushjoman21&layout=compact&theme=github_dark&border_color=00FF88&title_color=00FF88" height="160" />
-
-</div>
-
 ---
 
 ### 📫 Contact
@@ -114,8 +105,6 @@ Check my repositories!
 <div align="center">
 
 > Open for freelance projects, security research collabs & interesting ideas.
-
-[![GitHub](https://img.shields.io/badge/GitHub-pushjoman21-181717?style=for-the-badge&logo=github)](https://github.com/pushjoman21)
 
 </div>
 
