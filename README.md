@@ -23,6 +23,7 @@ developer = {
     "languages":  ["JavaScript", "Python", "C"],
     "stack":      ["Frontend", "Backend", "APIs", "Security Tools"],
     "currently":  "Building tools. Breaking things. Learning more.",
+    "discord":  ".joman21."
 }
 ```
 
