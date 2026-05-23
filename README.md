@@ -105,6 +105,7 @@ Check my repositories!
 <div align="center">
 
 > Open for freelance projects, security research collabs & interesting ideas.
+> DISCORD [.joman21.]
 
 </div>
 
