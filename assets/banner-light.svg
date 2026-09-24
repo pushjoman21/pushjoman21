@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Joman</title>
+  <desc id="desc">Security and Systems Developer. Reverse engineering, application security and full-stack development.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f4f7f9"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#1f2328" fill-opacity="0.08"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0.35" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="dotmask"><rect width="1200" height="300" fill="url(#fade)"/></mask>
+    <clipPath id="card"><rect x="0.5" y="0.5" width="1199" height="299" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#dots)" mask="url(#dotmask)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="16" fill="none" stroke="#d1d9e0"/>
+
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="64" y="72" width="28" height="3" rx="1.5" fill="#0a7f55"/>
+    <text x="104" y="79" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="2.5" fill="#0a7f55">SECURITY · SYSTEMS · SOFTWARE</text>
+    <text x="62" y="160" font-size="68" font-weight="700" letter-spacing="-1.5" fill="#1f2328">Joman</text>
+    <text x="64" y="206" font-size="26" font-weight="500" fill="#59636e">Security &amp; Systems Developer</text>
+    <text x="64" y="246" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#818b98">Reverse Engineering  /  AppSec  /  Full-Stack  —  Germany</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15">
+    <rect x="804" y="68" width="300" height="28" rx="6" fill="#0a7f55" fill-opacity="0.09">
+      <animate attributeName="y" values="68;98;128;158;188;218" dur="7.2s" calcMode="discrete" repeatCount="indefinite"/>
+    </rect>
+    <rect x="804" y="68" width="3" height="28" rx="1.5" fill="#0a7f55">
+      <animate attributeName="y" values="68;98;128;158;188;218" dur="7.2s" calcMode="discrete" repeatCount="indefinite"/>
+    </rect>
+    <text x="820" y="88"><tspan fill="#818b98">0x0040</tspan><tspan x="904" fill="#0a7f55">mov</tspan><tspan x="958" fill="#59636e">r1, [bp+0x08]</tspan></text>
+    <text x="820" y="118"><tspan fill="#818b98">0x0044</tspan><tspan x="904" fill="#0a7f55">xor</tspan><tspan x="958" fill="#59636e">r0, r0, r1</tspan></text>
+    <text x="820" y="148"><tspan fill="#818b98">0x0048</tspan><tspan x="904" fill="#0a7f55">cmp</tspan><tspan x="958" fill="#59636e">r0, 0x4a6f</tspan></text>
+    <text x="820" y="178"><tspan fill="#818b98">0x004c</tspan><tspan x="904" fill="#0a7f55">jne</tspan><tspan x="958" fill="#59636e">.reject</tspan></text>
+    <text x="820" y="208"><tspan fill="#818b98">0x0050</tspan><tspan x="904" fill="#0a7f55">call</tspan><tspan x="958" fill="#59636e">vm_dispatch</tspan></text>
+    <text x="820" y="238"><tspan fill="#818b98">0x0054</tspan><tspan x="904" fill="#0a7f55">ret</tspan><tspan x="958" fill="#59636e"></tspan></text>
+  </g>
+</svg>
